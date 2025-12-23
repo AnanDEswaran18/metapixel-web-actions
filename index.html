@@ -74,32 +74,6 @@
     <meta name="target" content="all" />
     <meta name="HandheldFriendly" content="true" />
     
-    <!-- Structured Data (JSON-LD) -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "Mtapixel Web Actions",
-      "description": "Comprehensive analytics testing app integrating Meta Pixel, Google Tag Manager, and Google Analytics 4 for tracking web actions and events in real-time.",
-      "url": "https://metapixel-web-actions.vercel.app",
-      "applicationCategory": "DeveloperApplication",
-      "operatingSystem": "Web",
-      "offers": {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "USD"
-      },
-      "author": {
-        "@type": "Organization",
-        "name": "Mtapixel"
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "5.0",
-        "ratingCount": "1"
-      }
-    }
-    </script>
     
     <!-- Google Tag Manager -->
     <script>
@@ -121,48 +95,40 @@
     
     <!-- Meta Pixel Code -->
     <script>
-      !function(f, b, e, v, n, t, s) {
-        if (f.fbq) return;
-        n = f.fbq = function() {
-          n.callMethod ? 
-            n.callMethod.apply(n, arguments) : 
-            n.queue.push(arguments)
-        };
-        if (!f._fbq) f._fbq = n;
-        n.push = n;
-        n.loaded = !0;
-        n.version = '2.0';
-        n.queue = [];
-        t = b.createElement(e);
-        t.async = !0;
-        t.src = v;
-        s = b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t, s)
-      }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
-      
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
       fbq('init', '885863333838184');
       fbq('track', 'PageView');
     </script>
     <!-- End Meta Pixel Code -->
     
-    <!-- Google tag (gtag.js) -->
+    <!-- Google Analytics 4 -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-7GC4X9NBZ4"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){
-        dataLayer.push(arguments);
-      }
+      function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', 'G-7GC4X9NBZ4');
     </script>
+    <!-- End Google Analytics 4 -->
   </head>
   <body>
     <!-- Meta Pixel (noscript) -->
-    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=885863333838184&ev=PageView&noscript=1" /></noscript>
+    <noscript>
+      <img height="1" width="1" style="display:none" 
+      src="https://www.facebook.com/tr?id=885863333838184&ev=PageView&noscript=1"/>
+    </noscript>
     <!-- End Meta Pixel (noscript) -->
+    
     <!-- Google Tag Manager (noscript) -->
     <noscript>
-      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N2N925Q9" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N2N925Q9" height="600" width="100%" style="border:1px solid #ccc;"></iframe>
     </noscript>
     <!-- End Google Tag Manager (noscript) -->
 
