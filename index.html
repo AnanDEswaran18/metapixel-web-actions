@@ -101,6 +101,18 @@
     }
     </script>
     
+
+    <!-- Initialize DataLayer and Global Config -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      
+      // Force cookie domain to current hostname to fix "invalid domain" errors on Vercel
+      gtag('set', {
+        'cookie_domain': window.location.hostname
+      });
+    </script>
+    
     <!-- Google Tag Manager -->
     <script>
       (function(w, d, s, l, i) {
