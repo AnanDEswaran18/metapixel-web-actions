@@ -143,6 +143,7 @@ const Ecommerce = ({ trackEvent }) => {
                 }}>
                     <div className="card modal-content" style={{ maxWidth: '500px', width: '90%', position: 'relative' }}>
                         <button
+                            id="btn-modal-close"
                             className="btn-close-modal"
                             onClick={(e) => { e.stopPropagation(); setActiveProduct(null); }}
                             style={{ position: 'absolute', top: '10px', right: '10px', background: 'none', border: 'none', color: 'white', fontSize: '1.5rem', cursor: 'pointer' }}
@@ -159,6 +160,7 @@ const Ecommerce = ({ trackEvent }) => {
                                 {['Black', 'Silver', 'Gold'].map(color => (
                                     <button
                                         key={color}
+                                        id={`btn-color-${color.toLowerCase()}`}
                                         className={`btn btn-dark btn-color-option btn-color-${color.toLowerCase()}`}
                                         style={{ padding: '0.5rem 1rem', fontSize: '0.9rem' }}
                                         onClick={() => handleCustomizeProduct(color)}
@@ -169,7 +171,7 @@ const Ecommerce = ({ trackEvent }) => {
                             </div>
                         </div>
 
-                        <button className="btn btn-primary btn-modal-add-to-cart" style={{ width: '100%' }} onClick={(e) => handleAddToCart(activeProduct, e)}>
+                        <button id="btn-modal-add-to-cart" className="btn btn-primary btn-modal-add-to-cart" style={{ width: '100%' }} onClick={(e) => handleAddToCart(activeProduct, e)}>
                             Add to Cart
                         </button>
                     </div>
