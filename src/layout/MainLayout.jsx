@@ -2,6 +2,7 @@ import React from 'react';
 import { Outlet } from 'react-router-dom';
 import Navigation from '../components/Navigation';
 import EventLog from '../components/EventLog';
+import TriggerTester from '../components/TriggerTester';
 
 const MainLayout = ({ gtmStatus, metaPixelStatus, events, clearEventLog }) => {
     return (
@@ -28,6 +29,8 @@ const MainLayout = ({ gtmStatus, metaPixelStatus, events, clearEventLog }) => {
                 <main className="content-area">
                     <Outlet />
                 </main>
+
+                <TriggerTester />
 
                 <EventLog events={events} onClear={clearEventLog} />
             </div>
