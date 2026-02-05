@@ -1,4 +1,10 @@
 User-agent: *
 Crawl-delay: 1
 
-Sitemap: https://metapixel-web-actions.vercel.app/sitemap.xml
+User-agent: *
+Crawl-delay: 1
+
+User-agent: *
+Crawl-delay: 1
+
+Sitemap: https://www.datumart.com/sitemap.xml
