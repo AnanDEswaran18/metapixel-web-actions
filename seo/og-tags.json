@@ -1,0 +1,16 @@
+[
+  {
+    "url": "https://www.datumart.com/memory-about",
+    "title": "Memory About",
+    "description": "Memory about description",
+    "image": "https://metapixel-web-actions.vercel.app/about.jpg",
+    "type": "website"
+  },
+  {
+    "url": "https://metapixel-web-actions.vercel.app/blog",
+    "title": "New Blog Title",
+    "description": "Blog description",
+    "image": "https://www.onehealth.org/hs-fs/hubfs/blog/Tips-for-Choosing-the-Right-Pet-for-Your-Home-and-Lifestyle.jpeg?width=470&name=Tips-for-Choosing-the-Right-Pet-for-Your-Home-and-Lifestyle.jpeg",
+    "type": "website"
+  }
+]
