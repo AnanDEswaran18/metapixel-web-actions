@@ -1,0 +1,6 @@
+User-agent: ClaudeAI
+Disallow: /register
+Allow: /
+Crawl-delay: 10
+
+Sitemap: https://metapixel-web-actions.vercel.app/sitemap.xml
