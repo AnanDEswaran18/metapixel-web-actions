@@ -3,4 +3,7 @@ Disallow: /register
 Allow: /
 Crawl-delay: 10
 
+User-agent: *
+Crawl-delay: 1
+
 Sitemap: https://metapixel-web-actions.vercel.app/sitemap.xml
