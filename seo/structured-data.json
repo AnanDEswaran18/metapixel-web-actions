@@ -1,0 +1,752 @@
+[
+  {
+    "type": "faq",
+    "url": "https://metapixel-web-actions.vercel.app/faq",
+    "jsonLD": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How are you?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "I'm fine, thanks"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "blog",
+    "url": "https://www.metapixel-web-actions.vercel.app/",
+    "jsonLD": {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Headline",
+      "author": {
+        "@type": "Person",
+        "name": "Anand"
+      },
+      "datePublished": "2026-02-04",
+      "description": "Description"
+    }
+  },
+  {
+    "type": "event",
+    "url": "https://www.metapixel-web-actions.vercel.app/event/concert-1",
+    "jsonLD": {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Concert",
+      "startDate": "2026-02-11",
+      "endDate": "2026-02-25",
+      "location": {
+        "@type": "Place",
+        "name": "Online"
+      },
+      "performer": {
+        "@type": "Person",
+        "name": "Anand"
+      },
+      "description": "Description"
+    }
+  },
+  {
+    "type": "testimonial",
+    "url": "https://www.metapixel-web-actions.vercel.app/testimonials",
+    "jsonLD": {
+      "@context": "https://schema.org",
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Anand"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      },
+      "reviewBody": "Good and Better"
+    }
+  },
+  {
+    "type": "faq",
+    "url": "https://example.com/faq/1",
+    "jsonLD": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is MetaPixel?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "MetaPixel is a web automation platform."
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "faq",
+    "url": "https://example.com/faq/2",
+    "jsonLD": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is MetaPixel free?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "MetaPixel offers both free and paid plans."
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "faq",
+    "url": "https://example.com/faq/3",
+    "jsonLD": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Does it support SEO?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, structured data and SEO are supported."
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "faq",
+    "url": "https://example.com/faq/4",
+    "jsonLD": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can I track events?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, custom events can be tracked."
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "faq",
+    "url": "https://example.com/faq/5",
+    "jsonLD": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is it cloud based?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, MetaPixel runs in the cloud."
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "faq",
+    "url": "https://example.com/faq/6",
+    "jsonLD": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Does it support Next.js?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, it works well with Next.js."
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "faq",
+    "url": "https://example.com/faq/7",
+    "jsonLD": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is setup easy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Setup takes only a few minutes."
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "faq",
+    "url": "https://example.com/faq/8",
+    "jsonLD": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can I export data?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, data export is supported."
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "faq",
+    "url": "https://example.com/faq/9",
+    "jsonLD": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is customer support available?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "24/7 support is available."
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "faq",
+    "url": "https://example.com/faq/10",
+    "jsonLD": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is it secure?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, enterprise-grade security is used."
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "blog",
+    "url": "https://example.com/blog/1",
+    "jsonLD": {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Intro to MetaPixel",
+      "author": {
+        "@type": "Person",
+        "name": "Anand"
+      },
+      "datePublished": "2026-02-01T09:00:00+05:30"
+    }
+  },
+  {
+    "type": "blog",
+    "url": "https://example.com/blog/2",
+    "jsonLD": {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "SEO Automation",
+      "author": {
+        "@type": "Person",
+        "name": "Anand"
+      },
+      "datePublished": "2026-02-02T09:00:00+05:30"
+    }
+  },
+  {
+    "type": "blog",
+    "url": "https://example.com/blog/3",
+    "jsonLD": {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Tracking Events",
+      "author": {
+        "@type": "Person",
+        "name": "Anand"
+      },
+      "datePublished": "2026-02-03T09:00:00+05:30"
+    }
+  },
+  {
+    "type": "blog",
+    "url": "https://example.com/blog/4",
+    "jsonLD": {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Why JSON-LD",
+      "author": {
+        "@type": "Person",
+        "name": "Anand"
+      },
+      "datePublished": "2026-02-04T09:00:00+05:30"
+    }
+  },
+  {
+    "type": "blog",
+    "url": "https://example.com/blog/5",
+    "jsonLD": {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Rich Results Guide",
+      "author": {
+        "@type": "Person",
+        "name": "Anand"
+      },
+      "datePublished": "2026-02-05T09:00:00+05:30"
+    }
+  },
+  {
+    "type": "blog",
+    "url": "https://example.com/blog/6",
+    "jsonLD": {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Next.js SEO",
+      "author": {
+        "@type": "Person",
+        "name": "Anand"
+      },
+      "datePublished": "2026-02-06T09:00:00+05:30"
+    }
+  },
+  {
+    "type": "blog",
+    "url": "https://example.com/blog/7",
+    "jsonLD": {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "User Analytics",
+      "author": {
+        "@type": "Person",
+        "name": "Anand"
+      },
+      "datePublished": "2026-02-07T09:00:00+05:30"
+    }
+  },
+  {
+    "type": "blog",
+    "url": "https://example.com/blog/8",
+    "jsonLD": {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Automation Tips",
+      "author": {
+        "@type": "Person",
+        "name": "Anand"
+      },
+      "datePublished": "2026-02-08T09:00:00+05:30"
+    }
+  },
+  {
+    "type": "blog",
+    "url": "https://example.com/blog/9",
+    "jsonLD": {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Analytics Simplified",
+      "author": {
+        "@type": "Person",
+        "name": "Anand"
+      },
+      "datePublished": "2026-02-09T09:00:00+05:30"
+    }
+  },
+  {
+    "type": "blog",
+    "url": "https://example.com/blog/10",
+    "jsonLD": {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Future of Tracking",
+      "author": {
+        "@type": "Person",
+        "name": "Anand"
+      },
+      "datePublished": "2026-02-10T09:00:00+05:30"
+    }
+  },
+  {
+    "type": "event",
+    "url": "https://example.com/event/1",
+    "jsonLD": {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "SEO Webinar",
+      "startDate": "2026-03-01T10:00:00+05:30",
+      "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+      "location": {
+        "@type": "VirtualLocation",
+        "url": "https://example.com/event/1"
+      }
+    }
+  },
+  {
+    "type": "event",
+    "url": "https://example.com/event/2",
+    "jsonLD": {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Automation Workshop",
+      "startDate": "2026-03-02T10:00:00+05:30",
+      "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+      "location": {
+        "@type": "VirtualLocation",
+        "url": "https://example.com/event/2"
+      }
+    }
+  },
+  {
+    "type": "event",
+    "url": "https://example.com/event/3",
+    "jsonLD": {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Analytics Bootcamp",
+      "startDate": "2026-03-03T10:00:00+05:30",
+      "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+      "location": {
+        "@type": "VirtualLocation",
+        "url": "https://example.com/event/3"
+      }
+    }
+  },
+  {
+    "type": "event",
+    "url": "https://example.com/event/4",
+    "jsonLD": {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Next.js Masterclass",
+      "startDate": "2026-03-04T10:00:00+05:30",
+      "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+      "location": {
+        "@type": "VirtualLocation",
+        "url": "https://example.com/event/4"
+      }
+    }
+  },
+  {
+    "type": "event",
+    "url": "https://example.com/event/5",
+    "jsonLD": {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Schema Deep Dive",
+      "startDate": "2026-03-05T10:00:00+05:30",
+      "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+      "location": {
+        "@type": "VirtualLocation",
+        "url": "https://example.com/event/5"
+      }
+    }
+  },
+  {
+    "type": "event",
+    "url": "https://example.com/event/6",
+    "jsonLD": {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "SEO Live Q&A",
+      "startDate": "2026-03-06T10:00:00+05:30",
+      "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+      "location": {
+        "@type": "VirtualLocation",
+        "url": "https://example.com/event/6"
+      }
+    }
+  },
+  {
+    "type": "event",
+    "url": "https://example.com/event/7",
+    "jsonLD": {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Tracking Summit",
+      "startDate": "2026-03-07T10:00:00+05:30",
+      "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+      "location": {
+        "@type": "VirtualLocation",
+        "url": "https://example.com/event/7"
+      }
+    }
+  },
+  {
+    "type": "event",
+    "url": "https://example.com/event/8",
+    "jsonLD": {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Web Analytics Day",
+      "startDate": "2026-03-08T10:00:00+05:30",
+      "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+      "location": {
+        "@type": "VirtualLocation",
+        "url": "https://example.com/event/8"
+      }
+    }
+  },
+  {
+    "type": "event",
+    "url": "https://example.com/event/9",
+    "jsonLD": {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Growth Hacking",
+      "startDate": "2026-03-09T10:00:00+05:30",
+      "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+      "location": {
+        "@type": "VirtualLocation",
+        "url": "https://example.com/event/9"
+      }
+    }
+  },
+  {
+    "type": "event",
+    "url": "https://example.com/event/10",
+    "jsonLD": {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Automation AMA",
+      "startDate": "2026-03-10T10:00:00+05:30",
+      "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+      "location": {
+        "@type": "VirtualLocation",
+        "url": "https://example.com/event/10"
+      }
+    }
+  },
+  {
+    "type": "testimonial",
+    "url": "https://example.com/testimonial/1",
+    "jsonLD": {
+      "@context": "https://schema.org",
+      "@type": "Review",
+      "itemReviewed": {
+        "@type": "Organization",
+        "name": "MetaPixel"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "User 1"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": 5
+      },
+      "reviewBody": "Excellent product."
+    }
+  },
+  {
+    "type": "testimonial",
+    "url": "https://example.com/testimonial/2",
+    "jsonLD": {
+      "@context": "https://schema.org",
+      "@type": "Review",
+      "itemReviewed": {
+        "@type": "Organization",
+        "name": "MetaPixel"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "User 2"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": 4
+      },
+      "reviewBody": "Very helpful."
+    }
+  },
+  {
+    "type": "testimonial",
+    "url": "https://example.com/testimonial/3",
+    "jsonLD": {
+      "@context": "https://schema.org",
+      "@type": "Review",
+      "itemReviewed": {
+        "@type": "Organization",
+        "name": "MetaPixel"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "User 3"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": 5
+      },
+      "reviewBody": "Great support."
+    }
+  },
+  {
+    "type": "testimonial",
+    "url": "https://example.com/testimonial/4",
+    "jsonLD": {
+      "@context": "https://schema.org",
+      "@type": "Review",
+      "itemReviewed": {
+        "@type": "Organization",
+        "name": "MetaPixel"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "User 4"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": 4
+      },
+      "reviewBody": "Easy to use."
+    }
+  },
+  {
+    "type": "testimonial",
+    "url": "https://example.com/testimonial/5",
+    "jsonLD": {
+      "@context": "https://schema.org",
+      "@type": "Review",
+      "itemReviewed": {
+        "@type": "Organization",
+        "name": "MetaPixel"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "User 5"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": 5
+      },
+      "reviewBody": "Highly recommended."
+    }
+  },
+  {
+    "type": "testimonial",
+    "url": "https://example.com/testimonial/6",
+    "jsonLD": {
+      "@context": "https://schema.org",
+      "@type": "Review",
+      "itemReviewed": {
+        "@type": "Organization",
+        "name": "MetaPixel"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "User 6"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": 4
+      },
+      "reviewBody": "Good value."
+    }
+  },
+  {
+    "type": "testimonial",
+    "url": "https://example.com/testimonial/7",
+    "jsonLD": {
+      "@context": "https://schema.org",
+      "@type": "Review",
+      "itemReviewed": {
+        "@type": "Organization",
+        "name": "MetaPixel"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "User 7"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": 5
+      },
+      "reviewBody": "Powerful features."
+    }
+  },
+  {
+    "type": "testimonial",
+    "url": "https://example.com/testimonial/8",
+    "jsonLD": {
+      "@context": "https://schema.org",
+      "@type": "Review",
+      "itemReviewed": {
+        "@type": "Organization",
+        "name": "MetaPixel"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "User 8"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": 4
+      },
+      "reviewBody": "Nice UI."
+    }
+  },
+  {
+    "type": "testimonial",
+    "url": "https://example.com/testimonial/9",
+    "jsonLD": {
+      "@context": "https://schema.org",
+      "@type": "Review",
+      "itemReviewed": {
+        "@type": "Organization",
+        "name": "MetaPixel"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "User 9"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": 5
+      },
+      "reviewBody": "Reliable platform."
+    }
+  },
+  {
+    "type": "testimonial",
+    "url": "https://example.com/testimonial/10",
+    "jsonLD": {
+      "@context": "https://schema.org",
+      "@type": "Review",
+      "itemReviewed": {
+        "@type": "Organization",
+        "name": "MetaPixel"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "User 10"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": 5
+      },
+      "reviewBody": "Love using it."
+    }
+  }
+]
