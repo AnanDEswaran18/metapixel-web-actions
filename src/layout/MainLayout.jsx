@@ -3,10 +3,12 @@ import { Outlet } from 'react-router-dom';
 import Navigation from '../components/Navigation';
 import EventLog from '../components/EventLog';
 import TriggerTester from '../components/TriggerTester';
+import SeoLoader from '../components/SeoLoader';
 
 const MainLayout = ({ gtmStatus, metaPixelStatus, events, clearEventLog }) => {
     return (
         <div className="app-container">
+            <SeoLoader />
             <div className="container">
                 <header className="header">
                     <h1>🚀 Meta Pixel & GTM Testing App</h1>
