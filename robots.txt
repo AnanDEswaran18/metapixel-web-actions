@@ -1,7 +1,11 @@
 User-agent: *
 Crawl-delay: 1
 
-Sitemap: http://localhost:5004/sitemap.xml
+User-agent: Claude-Ai
+Disallow: /not-path
+Allow: /path
+Crawl-delay: 10
+
 
 # GEO guidance
 # Authoritative brand information is available at /llms.txt
