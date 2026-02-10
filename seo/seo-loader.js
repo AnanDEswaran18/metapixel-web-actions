@@ -18,6 +18,7 @@
                 document.title = meta.title;
                 setMeta('description', meta.description);
                 setMeta('keywords', Array.isArray(meta.keywords) ? meta.keywords.join(', ') : meta.keywords);
+                pushEvent(meta.id, 'meta');
             }
 
             // 2. OpenGraph
@@ -27,6 +28,7 @@
                 setMeta('og:description', og.description, 'property');
                 if (og.image) setMeta('og:image', og.image, 'property');
                 setMeta('og:type', og.type || 'website', 'property');
+                pushEvent(og.id, 'og');
             }
 
             // 3. Structured Data
@@ -36,10 +38,22 @@
                 script.type = 'application/ld+json';
                 script.text = JSON.stringify(sd.jsonLD);
                 document.head.appendChild(script);
+                pushEvent(sd.id, 'structured_data');
             });
         } catch (e) {
             console.error('Datum SEO Loader Error:', e);
         }
+    }
+
+    function pushEvent(id, type) {
+        if (!id) return;
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({
+            event: 'seo_meta_applied',
+            seo_id: id,
+            seo_type: type,
+            page_url: window.location.href
+        });
     }
 
     function setMeta(name, content, attr = 'name') {
