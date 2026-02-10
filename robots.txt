@@ -1,9 +1,7 @@
-User-agent: ClaudeAI
-Disallow: /register
-Allow: /
-Crawl-delay: 10
-
 User-agent: *
 Crawl-delay: 1
 
-Sitemap: https://metapixel-web-actions.vercel.app/sitemap.xml
+Sitemap: http://localhost:5004/sitemap.xml
+
+# GEO guidance
+# Authoritative brand information is available at /llms.txt
