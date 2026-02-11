@@ -3,7 +3,6 @@
 
 ## Identity Details
 - **Primary language:** en
-- **Supported regions:** UK
 
 ## Context & Focus
 - **Primary topics:** AI, demonstration, application
