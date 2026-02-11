@@ -47,4 +47,10 @@
       <lastmod>2026-02-06T08:16:08.511Z</lastmod>
       <priority>1</priority>
       <changefreq>daily</changefreq>
+    </url>
+    <url>
+      <loc>http://localhost:5004/blog-anand</loc>
+      <lastmod>2026-02-11T07:33:55.617Z</lastmod>
+      <priority>1</priority>
+      <changefreq>daily</changefreq>
     </url></urlset>
