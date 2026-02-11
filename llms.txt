@@ -1,42 +1,28 @@
-# [Datumart Site](https://www.datumart.com)
-> Turn your dream business into reality with Datumart—design and brand your online store effortlessly. Launch and grow faster with personalized web and mobile storefronts that attract more customers online and in-store.
+# [Demo App](http://localhost:5004)
+> A demonstration application for showcasing AI capabilities. It provides a platform to explore various AI features and functionalities.
 
 ## Identity Details
-- **Alternate names:** Datumailabs
-- **Primary language:** en-GB
-- **Supported regions:** India, UK, USA
-- **Founded:** 2020
-- **Company type:** Private Limited
-- **Contact:** bagavathi@datumailabs.com
+- **Primary language:** en
 
 ## Context & Focus
-- **Primary topics:** GEO, SEO, IT
-- **Secondary topics:** E commerce, digital
-- **Industries served:** Restaurants, IT, Youtube channels
-- **Primary use cases:** Lead generation, Analytics
+- **Primary topics:** AI, Demonstration, Application
+- **Secondary topics:** Machine Learning, Artificial Intelligence
 
 ## Products & Services
-- **Products:** Datumart Marketing Tool
-- **Services:** AI Marketing
-- **Pricing:** https://www.datumart.com/pricing
-- **Free tier availability:** Yes
+- **Free tier availability:** No
 
 ## Key Resources
-- www.datumart.com
-- www.datumart.com/team
+- http://localhost:5004/about
+- http://localhost:5004/features
+- http://localhost:5004/contact
 
 ## AI Specifics
 - **Tone preference:** Technical
-- **Citation requirement:** Source: Datumart
-- **Attribution URL:** https://www.datumart.com
-- **Factual claims:** GDPR Compliant
-- **Integrations:** Google Analytics, Stripe
+- **Citation requirement:** Demo App (http://localhost:5004)
+- **Attribution URL:** http://localhost:5004
 
 ## Positioning
-- **Comparable to:** Hubspot, shopify
-- **Not affiliated with:** Google Meta
-- **Market differentiators:** AI-first, GEO Optimized
 
 ---
 *Last updated: 2026-02-09*
-*Expected update frequency: Daily*
+*Expected update frequency: Weekly*
