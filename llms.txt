@@ -1,19 +1,19 @@
 # [Demo App](http://localhost:5004)
-> A demonstration application for showcasing AI capabilities. It provides a platform to explore various AI features and functionalities.
+> A demonstration application showcasing AI system capabilities. It provides a platform for users to explore and interact with various AI functionalities.
 
 ## Identity Details
 - **Primary language:** en
+- **Supported regions:** UK
 
 ## Context & Focus
-- **Primary topics:** AI, Demonstration, Application
-- **Secondary topics:** Machine Learning, Artificial Intelligence
+- **Primary topics:** AI, demonstration, application
 
 ## Products & Services
-- **Free tier availability:** No
+- **Free tier availability:** Yes
 
 ## Key Resources
+- http://localhost:5004
 - http://localhost:5004/about
-- http://localhost:5004/features
 - http://localhost:5004/contact
 
 ## AI Specifics
