@@ -6,7 +6,11 @@ Disallow: /not-path
 Allow: /path
 Crawl-delay: 10
 
-Sitemap: http://localhost:5004/sitemap.xml
+User-agent: GoogleBot
+Disallow: /enquiry
+Allow: /blog
+Crawl-delay: 1
+
 
 # GEO guidance
 # Authoritative brand information is available at /llms.txt
