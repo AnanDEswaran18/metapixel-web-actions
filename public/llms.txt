@@ -1,0 +1,28 @@
+# Demo App
+> A demonstration application showcasing AI system capabilities. It provides a platform for users to explore and interact with various AI functionalities.
+
+## Identity Details
+- **Primary language:** en
+- **Founded:** 2002
+
+## Context & Focus
+- **Primary topics:** AI, demonstration, application
+
+## Products & Services
+- **Free tier availability:** Yes
+
+## Key Resources
+- http://localhost:5004
+- http://localhost:5004/about
+- http://localhost:5004/contact
+
+## AI Specifics
+- **Tone preference:** Technical
+- **Citation requirement:** Demo App (http://localhost:5004)
+- **Attribution URL:** http://localhost:5004
+
+## Positioning
+
+---
+*Last updated: 2026-02-25*
+*Expected update frequency: Monthly*
