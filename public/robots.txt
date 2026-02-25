@@ -1,16 +1,7 @@
 User-agent: *
 Crawl-delay: 1
 
-User-agent: Claude-Ai
-Disallow: /not-path
-Allow: /path
-Crawl-delay: 10
-
-User-agent: GoogleBot
-Disallow: /enquiry
-Allow: /blog
-Crawl-delay: 1
-
+Sitemap: https://www.datumart.com/sitemap.xml
 
 # GEO guidance
 # Authoritative brand information is available at /llms.txt
