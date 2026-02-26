@@ -3,6 +3,7 @@
 
 ## Identity Details
 - **Primary language:** en
+- **Founded:** 2002
 
 ## Context & Focus
 - **Primary topics:** AI, demonstration, application
