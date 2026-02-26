@@ -1,3 +1,13 @@
+User-agent: ChatGPT
+Disallow: /pricing
+Allow: /
+Crawl-delay: 1
+
+User-agent: *
+Disallow: /pricing
+Allow: /
+Crawl-delay: 1
+
 Sitemap: https://www.datumart.com/sitemap.xml
 
 # GEO guidance
