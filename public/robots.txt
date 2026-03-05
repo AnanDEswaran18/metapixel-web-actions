@@ -3,7 +3,7 @@ Disallow: /pricing
 Allow: /
 Crawl-delay: 1
 
-User-agent: *
+User-agent: GeminiBot
 Disallow: /pricing
 Allow: /
 Crawl-delay: 1
